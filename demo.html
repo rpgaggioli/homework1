@@ -1,0 +1,24 @@
+<html>
+  <head>
+	
+  </head>
+  <body>
+	<form name="formxml">
+		Initial position of the particles:<br />
+		<textarea name="textarea" id="positions" rows="10" cols="50">0, 0.5 
+0.5, 0.9
+0.4, 0.25
+0.5, 0.5</textarea><br />
+		Initial velocity of the particles:<br />
+		<textarea name="textarea" id="velocities" rows="10" cols="50">0.1, 1.0
+0.5, 1
+1, 0.25
+0, 0.5</textarea><br />
+		Ground normal: <input type="text" id="grounds" name="grounds" value="0, 1"><br />
+		Time step per tick: <input type="text" id="timeticks" name="timetick" value="10"><br />
+	</form>
+    <p>Particle Simulator</p>
+	<script type="text/javascript" src="compiled.js"></script>
+	<button type="button" name="button" onclick="init()">Reset</button><br />
+  </body>
+</html>
